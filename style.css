@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+
+}
+.full_board {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    color: #000;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(240, 237, 237);
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    padding-left: 10px;
+
+ }
+ .sidebar ul li{
+    padding-top: 10px;
+ }
+  .sidebar li a {
+    background-color: #ffffff;
+    display: block;
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    box-shadow: 0px 2px 0px 0px rgb(240, 237, 237);
+}
+.sidebar li a:hover {
+    background-color: #fcfcfc;
+    color: #000000;
+    box-shadow: 2px 2px 5px 5px rgb(240, 237, 237);
+}
+
+.profile_card {
+    /* background-color: aquamarine; */
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile_card  .name {
+    margin-top: 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 0px 0px rgb(240, 237, 237);
+}
+
+.display_pic{
+    /* background-color: white; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px 0px rgb(240, 237, 237);
+}
+.display_pic img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.content {
+    width: 100%;
+    margin-left: 250px;
+    padding: 40px;
+}
+
+
+
+
+/* card */
+.cards{
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 5px rgb(246, 229, 229);
+    height: 80vh;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin : 10px;
+    /* background-color: aquamarine; */
+    width: 22%;
+    height: 20vh;
+    box-shadow: 2px 2px 5px 2px rgb(241, 240, 240);
+}
+
+.driver_name{
+    background-color: rgb(218, 226, 226);
+    text-align: center;
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+    box-shadow: 2px 2px 5px 5px rgb(135, 132, 132);
+    transition: box-shadow 0.5;
+}
+
+.driver_info {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+.driver_image{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.info{
+    width: 60%;
+    padding: 2px;
+}
+
+.driver_image img {
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+
